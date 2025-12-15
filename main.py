@@ -162,7 +162,7 @@ for idx, acc in enumerate(accounts):
 # ------------------------ TRIGGER GOOGLE APPS SCRIPT ------------------------
 log("\n🔔 Triggering Google Apps Script...")
 time.sleep(10)
-apps_script_url = 'https://script.google.com/macros/s/AKfycbwXBBIXOmlltYWprwFzVg0tWvtPlT-eSKZBBTzSF_pzxKUbqpLJUHWQ7P_R_EIdcVHusw/exec'
+apps_script_url = 'https://script.google.com/macros/s/AKfycbz9rwZEjUQXVGOr2_AbhI15jVTfFCRUYtEGNe9EYkX28HmoBPJowrRkCNYuPKZnmu790A/exec'
 try:
     final_response = requests.get(apps_script_url)
     if final_response.status_code == 200:
