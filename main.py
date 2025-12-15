@@ -77,7 +77,7 @@ accounts = [
     {"username": "amarbhavsarb+5@gmail.com",   "password": "abcd@0000", "url": "https://www.screener.in/screens/2358928/ttyy/?page={}", "range": "CW1:DN6000", "add_classification": False},
 ]
 
-sheet_url = 'https://docs.google.com/spreadsheets/d/1xKu26F7SLk0b6OMh5iQ5520Gt4xU9Wm_a1a5mna_H8I/edit?gid=0#gid=0'
+sheet_url = 'https://docs.google.com/spreadsheets/d/1aWHNmBkkTDnWLhMJwbErc6gs6Vtl78LW0kM4-I6Kj4o/edit?gid=0#gid=0'
 sheet = gc.open_by_url(sheet_url).worksheet('Sheet2')
 log("✅ Connected to Google Sheet.")
 
