@@ -10,7 +10,7 @@ import time
 from datetime import datetime
 from google.oauth2.service_account import Credentials
 
-# ------------------------ LOGGING FUNCTION ------------------------
+# ------------------------ LOGGING FUNCTION -------------------------
 def log(message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{timestamp}] {message}")
